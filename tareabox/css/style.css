@@ -1,0 +1,59 @@
+
+div 
+{
+width: 100px;
+height: 100px;
+background: blue;
+color: aliceblue;
+font-size: 30px;
+
+
+}
+
+.caja_padre { 
+
+width: 975px;
+height: 600px;
+background: black;
+position: absolute;
+
+}
+
+.caja1 { 
+    position: relative;
+    top: -37px;
+    bottom: 0px;
+    left: 0px ;
+    right: 0px;    
+}
+
+.caja2 { 
+    position: relative;
+    top: -175px;
+    bottom:0px ;
+    left: 875px;
+    right: 0px;
+}
+
+.caja3 { 
+    position: relative;
+    top: -65px;
+    bottom: px; 
+    left: 437.5px;
+    right: 0px;
+}
+
+.caja4 { 
+    position: relative;
+    top: px;
+    bottom: -50px;
+    left: 875px;
+    right: 0px;
+}        
+.caja5 {
+    position: relative;
+    top: -88px;
+    bottom: px;
+    left: 0px;
+    right: 0px;
+}
