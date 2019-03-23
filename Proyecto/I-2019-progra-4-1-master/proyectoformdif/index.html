@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <form action="https://www.google.com" method="post" id="form-login">
+        <div>
+            <label for="input-name">Name</label>
+            <input name ="userHola" type="text" id="input-name">
+            <span class="error-name"></span>
+            <button id="nombre" type="button">Validar</button>
+        </div>
+        <div>
+            <label for="input-lastname">Lastname</label>
+            <input name ="userHola" type="text" id="input-lastname">
+            <span class="error-apellido"></span>
+            <button id="apellido" type="button">Validar</button>
+        </div>
+        <div>
+                <label for="input-nickname">Nickname</label>
+                <input name ="userHola" type="text" id="input-nickname">
+                <span class="error-nickname"></span>
+                <button id="apodo" type="button">Validar</button>
+        </div>
+        <div>
+            <label for="input-id">Id</label>
+            <input name ="userHola" type="text" id="input-id" required  maxlength="9">"12345678example">
+            <span class="error-id"></span>
+            <button id="id" type="button">Validar</button>
+        </div>
+        <div>
+            <label for="imput-correo">Correo</label>
+            <input id="email" type="text">"you@example.com">
+            <span class="error-email"></span>
+            <button id="correo" type="button">Validar</button>
+        
+        </div>
+        <div>
+            <label for="input-pass">Password</label>
+            <input name ="pass" type="password" id="input-pass">
+            <span class="error-password"></span>
+            <button id="pass" type="button">Validar</button>
+        </div>
+        
+    </form>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
